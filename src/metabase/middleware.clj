@@ -16,6 +16,7 @@
              [setting :refer [defsetting]]
              [user :as user :refer [User]]]
             monger.json
+            [puppetlabs.i18n.core :refer [tru]]
             [toucan
              [db :as db]
              [models :as models]])
